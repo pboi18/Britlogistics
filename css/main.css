@@ -167,8 +167,8 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  display: inline;
+  zoom: 1;
   max-width: 100%;
 }
 
@@ -264,7 +264,7 @@ legend {
   padding: 0;
   white-space: normal;
   /* 2 */
-  *margin-left: -7px;
+  margin-left: -7px;
   /* 3 */
 }
 
@@ -284,7 +284,7 @@ textarea {
   /* 2 */
   vertical-align: baseline;
   /* 3 */
-  *vertical-align: middle;
+  vertical-align: middle;
   /* 3 */
 }
 
@@ -325,7 +325,7 @@ input[type="submit"] {
   /* 2 */
   cursor: pointer;
   /* 3 */
-  *overflow: visible;
+  overflow: visible;
   /* 4 */
 }
 
@@ -350,9 +350,9 @@ input[type="radio"] {
   /* 1 */
   padding: 0;
   /* 2 */
-  *height: 13px;
+  height: 13px;
   /* 3 */
-  *width: 13px;
+  width: 13px;
   /* 3 */
 }
 
@@ -2188,76 +2188,3 @@ body {
   overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
-
-/* Add this CSS at the end of your existing CSS file or in a separate file */
-
-/* Mobile Styles */
-@media only screen and (max-width: 600px) {
-  body {
-      font-size: 14px; /* Adjust the font size for better readability on small screens */
-  }
-
-  header {
-      padding: 0.5rem; /* Reduce padding in the header for small screens */
-  }
-
-  .header__title {
-      font-size: 1.5rem; /* Adjust the font size for better readability on small screens */
-  }
-
-  .header__info {
-      font-size: 0.8rem; /* Adjust the font size for better readability on small screens */
-  }
-
-  .header__truck--img {
-      width: 80%; /* Make the truck image smaller on small screens */
-  }
-
-  .menu {
-      flex-direction: column; /* Change menu to a column layout for small screens */
-      text-align: center;
-      display: none; /* Hide the menu items by default on small screens */
-  }
-
-  .burger-menu {
-      display: block; /* Display the burger menu button on small screens */
-  }
-
-  .menu__item {
-      margin: 0.5rem 0; /* Add some space between menu items on small screens */
-  }
-
-  .about__info,
-  .about__info-span {
-      font-size: 0.9rem; /* Adjust the font size for better readability on small screens */
-  }
-
-  .about__img {
-      width: 100%; /* Make the image full-width on small screens */
-      margin-top: 1rem; /* Add some space between text and image on small screens */
-  }
-
-  .feature__wrap {
-      flex-direction: column; /* Change feature layout to a column for small screens */
-  }
-
-  .feature {
-      margin-bottom: 1rem; /* Add some space between features on small screens */
-  }
-
-  .offer__column {
-      margin-bottom: 2rem; /* Add some space between offer columns on small screens */
-  }
-
-  .track__form-wrap {
-      flex-direction: column; /* Change form layout to a column for small screens */
-      align-items: center; /* Center the form items on small screens */
-  }
-
-  .contact__container,
-  .contact__container-message,
-  .contact__input,
-  .contact__text {
-      width: 100%; /* Make form inputs full-width on small screens */
-  }
-}
