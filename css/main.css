@@ -1349,6 +1349,13 @@ body {
           animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+@media (min-width: 375px) {
+  .header__info {
+    
+    padding: 3rem 0rem 5rem 0;
+  }
+}
+
 @media (min-width: 768px) {
   .header__info {
     font-size: 3.8rem;
