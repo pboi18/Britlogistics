@@ -1167,7 +1167,7 @@ body {
 
 .header__title-container {
   font-size: 3.4rem;
-  height: 12rem;
+  height: 13rem;
   line-height: 16rem;
   width: 100%;
   letter-spacing: 0.0rem;
@@ -1235,7 +1235,7 @@ body {
   top: -1rem;
   right: 26rem;
   width: 16rem;
-  height: 3.4rem;
+  height: 3rem;
   background-color: #FFE680;
   z-index: -1;
 }
@@ -1299,6 +1299,7 @@ body {
 }
 
 .header__info {
+  
   text-align: center;
   letter-spacing: 0.05rem;
   -ms-grid-column: 1;
@@ -1352,12 +1353,13 @@ body {
   .header__info {
     font-size: 3.8rem;
     text-align: right;
-    padding-right: 15rem;
+    padding: 4rem 10rem 5rem 0;
   }
 }
 
 @media (min-width: 992px) {
   .header__info {
+    padding: 2rem 20rem 5rem 0;
     font-size: 4.2rem;
     padding-right: 20rem;
   }
@@ -1993,7 +1995,7 @@ body {
 .offer__order {
   text-transform: lowercase;
   padding: 0.8em;
-  width: 90%;
+  width: 80%;
   color: #fff;
   background-color: #D40511;
   display: block;
@@ -2008,11 +2010,19 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 1024px) {
+  .offer__order {
+    font-size: 1.7rem;
+  }
+}
+
 @media (min-width: 992px) {
   .offer__order {
     font-size: 1.8rem;
   }
 }
+
+
 
 .contact {
   position: relative;
